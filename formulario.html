@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos/formulario.css">
+</head>
+<body>
+    <p></p>
+    <form action="get">
+        <fieldset>
+    <label for="nombre"><p class="pregunta">Nombre:</p></label>
+    <input type="text" class="respuesta" id="nombre" name="nombre2" required placeholder="Tu nombre aquí">
+    <br>
+   <label for="Edad"> <p class="pregunta">Edad:</p></label>
+    <input type="number" class="respuesta" id="Edad" name="edad2" required placeholder="0">
+    <br>
+    <label for="pronombres"><p class="pregunta">Pronombres</p></label>
+    <select class="respuesta" required name="pronombres2" id="pronombres" >
+        <option value="el">Él</option>
+        <option value="ella">Ella</option>
+        <option value="Otro">Otro</option>
+    </select>
+    <br>
+   <input type="button" name="boton" id="boton2" value="Bienvenida" onclick="mensaje('Bienvenido amigo)">
+        <script>
+            function mensaje(text) {
+                alert(text);
+            }
+        </script>
+</fieldset>
+
+<button type="reset">
+    Reinicio de información
+</button>
+</form>
+</body>
+</html>

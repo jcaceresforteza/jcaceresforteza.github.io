@@ -1,0 +1,29 @@
+/*Propiedad Jose Cáceres*/
+
+
+*{
+    text-align: center;
+}
+
+body{
+    background-image:url("/img/fondoformulario.jpeg");
+    background-size: cover;
+
+}
+
+.pregunta {
+    text-align: left;
+    font-size: 23px;
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.respuesta {
+    text-align: left;
+    font-size: 15px;
+    float: left;
+    
+    
+}
+
