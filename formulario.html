@@ -1,39 +1,77 @@
+<!--Formulario html creado por Jose Cáceres-->
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-    <link rel="stylesheet" href="estilos/formulario.css">
+    <!-- <link rel="stylesheet" href="estilos/formulario.css"> -->
 </head>
 <body>
-    <p></p>
+    <main>
     <form action="get">
-        <fieldset>
-    <label for="nombre"><p class="pregunta">Nombre:</p></label>
-    <input type="text" class="respuesta" id="nombre" name="nombre2" required placeholder="Tu nombre aquí">
-    <br>
-   <label for="Edad"> <p class="pregunta">Edad:</p></label>
-    <input type="number" class="respuesta" id="Edad" name="edad2" required placeholder="0">
-    <br>
-    <label for="pronombres"><p class="pregunta">Pronombres</p></label>
-    <select class="respuesta" required name="pronombres2" id="pronombres" >
-        <option value="el">Él</option>
-        <option value="ella">Ella</option>
-        <option value="Otro">Otro</option>
-    </select>
-    <br>
-   <input type="button" name="boton" id="boton2" value="Bienvenida" onclick="mensaje('Bienvenido amigo)">
-        <script>
-            function mensaje(text) {
-                alert(text);
-            }
-        </script>
-</fieldset>
-
+    <fieldset>
+        <h1>Datos de contacto</h1>
+        <label class="pregunta" for="nombre">Nombre:</label>
+        <br><br>
+            <input type="text" class="respuesta" id="nombre" name="nombre2" required placeholder="Tu nombre aquí" autofocus>
+        <br><br>
+        <label class="pregunta" for="Edad">Edad:</label>
+        <br><br>
+            <input type="number" class="respuesta" id="Edad" name="edad2" required placeholder="0">
+        <br><br>
+        <label class="pregunta" for="pronombres">Pronombres:</label>
+        <br><br>
+            <select class="respuesta" name="pronombres2" id="pronombres">
+                <option value="el">Él</option>
+                <option value="ella">Ella</option>
+                <option value="Otro">Otro</option>
+            </select>
+        <br><br>
+        <label for="telefono1">Telefono de contacto:</label>
+        <br><br>
+            <input type="tel" name="telefono" id="telefono1">
+        <br><br>
+        <label for="correo1">E-mail:</label>
+        <br><br>
+            <input type="email" name="correo" id="correo1">
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <h1>Información adicional</h1>
+        <p class="pregunta">Ocasión de la visita:</p>
+            <label for="visitaa1">Observar mi talento</label> <input type="radio" name="visita" id="visitaa1" value="talento"><br>
+            <label for="visitaa2">Cotillear</label> <input type="radio" name="visita" id="visitaa2" value="cotilleo"><br>
+            <label for="visitaa3">Calificarme</label> <input type="radio" name="visita" id="visitaa3" value="Calificarme">
+        <br><br>
+        <label for="color1">Escoja su color representativo:</label>
+            <input type="color" name="color" id="color1" value="#ff0000">
+        <br><br>
+        <label for="cita1">Si desea una cita seleccione una fecha:</label>
+        <br><br>
+            <input type="datetime-local" name="cita" id="cita1">
+        <br><br>
+        <label for="Documentacion1">Documentación adjunta:</label>
+        <br><br>
+            <input type="file" name="documentacion" id="documentacion1">
+        <br><br>
+        <label for="importancia1">Importancia del contacto:</label>
+            <input type="range" name="importancia" id="importancia1" min="1" max="10" step="1">
+        <br><br>
+        <label for="otros1">Recomendaciones (Opcional):</label>
+        <br><br>
+            <textarea name="otros" id="otros1" cols="30" rows="6" placeholder="Escriba aquí sus recomendaciones"></textarea>
+    </fieldset>
+<label for="verificacion1">He leído y acepto los <a href="https://es.wikipedia.org/wiki/T%C3%A9rminos_y_condiciones_de_uso" target="_blank">términos y condiciones</a> de uso</label><input type="checkbox" name="verificacion" id="verificacion1" required>
+<br><br>
 <button type="reset">
+    <img src="/img/descarga.png" alt="reseteo" width="32" height="32" style="vertical-align: middle">
     Reinicio de información
 </button>
+<button type="submit">
+    Enviar
+  </button>
 </form>
+</main>
 </body>
 </html>
