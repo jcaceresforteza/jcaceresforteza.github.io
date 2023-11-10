@@ -1,31 +1,34 @@
 /*Propiedad Jose Cáceres*/
 
-
-*{
-    background-image: url("/img/fondopagina.jpeg");
-    background-repeat: repeat;
-    background-size: cover;
+header {
     text-align: center;
-}
-
-.links:hover{
-    color: black;
-}
-.links:hover:visited{
-    color: black;
-}
-.links:visited {
     color: white;
-}
-
-.links{
-    text-transform: uppercase;
-    font-weight:bolder;
-    font-size: 25px;
-    color: white;
-}
-
-.banner{
-    background-color: red;
+    background-image: url(/img/fondopagina.jpeg);
+    margin: 2%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0%;
+    margin-top: 0%;
+    font-weight: bold;
     
+}
+
+header a {
+    margin: 0% 5%;
+    
+}
+
+header a:visited {
+    color: white;
+}
+
+header a:link {
+    color: white;
+}
+
+header a:link:hover {
+    
+}
+header a:visited:hover {
+
 }
