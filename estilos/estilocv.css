@@ -59,21 +59,6 @@ li a:visited {
   font-size:25px;
 }
 
-.curriculum {
-    font-size: 0.8em;
-    float: left;
-    padding: 10px;
-    margin-top: 30px;
-    text-align: center;
-    width: 55%;
-    color: white;
-    font-size: 25px;
-    margin-left: 5%;
-  
-}
-
-
-
 
 
 .barraderecha {
@@ -111,7 +96,7 @@ aside h1{
 }
 
 .exp {
-  font-size: 145%;
+  font-size: 100%;
   text-align: center;
 }
 
@@ -126,16 +111,54 @@ aside h1{
   
 }
 
+
+
+.curriculum {
+    font-size: 0.8em;
+    float: left;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    width: 55%;
+    color: white;
+    font-size: 25px;
+    margin-left: 5%;
+  
+}
+
+
 table {
     margin-left: 10%;
     text-align: center;
-    width: 700px;
+    width: 885px;
     border-collapse: collapse;
+    font-size: 20px;
 }
 
 th, td {
-    padding: 80px;
+    padding: 10px;
     text-align: center;
    padding-left: 10%;
 }
 
+.titulo {
+    font-size: 30px;
+    text-decoration: underline;
+    border-top: 1px solid;
+    border-left: 1px solid;
+
+}
+
+.segundas {
+    border-left: 1px solid;
+}
+
+.yo {
+    width: 300px;
+    height: 300px;
+}
+
+.video {
+    width: 30px;
+    height: 30px;
+}
