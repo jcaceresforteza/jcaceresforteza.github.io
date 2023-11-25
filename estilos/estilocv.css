@@ -1,0 +1,141 @@
+/*Propiedad Jose Cáceres estilo para cv*/
+
+
+body {
+    background-image: url("/img/fondo.jpg");
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  header {
+    background-image: url("/img/fondo.jpg");
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    padding: 20px 20px 20px 20px;
+    position: sticky;
+    z-index: 1;
+    border-radius: 4px;
+    top:0%;
+    left:0%;
+    display: block;
+  }
+
+  header a{
+    color: white;
+    font-weight: bold;
+    padding-left: 7%;
+    margin-left: 6%;
+    font-size: 27px;
+  }
+
+  header a:hover{
+    font-size: 40px;
+    color: black;
+  }
+
+  .barraizquierda {
+    background-image: url("/img/fondo.jpg");
+    float: left;
+    height: 700px;
+    margin-top: 100px;
+    width: 15%;
+    color: white;
+    font-size: 35px;
+  }
+
+
+li a {
+  color: white;
+  font-weight: bold;
+  font-size:25px;
+}
+li a:visited {
+  color: white;
+  font-weight: bold;
+  font-size:25px;
+}
+
+.curriculum {
+    font-size: 0.8em;
+    float: left;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    width: 55%;
+    color: white;
+    font-size: 25px;
+    margin-left: 5%;
+  
+}
+
+
+
+
+
+.barraderecha {
+  float: left;
+  margin-top: 4%;
+  text-align: justify;
+  color: white;
+  font-weight: bold;
+  margin-left: 5%;
+  font-size: 25px;
+  width: 15%;
+
+}
+
+
+footer {
+  background-image: url("/img/fondo.jpg");
+  position: sticky;
+  z-index: 1;
+  border-radius: 4px;
+  bottom:0%;
+  left:0%;
+  clear: both;
+  padding: 20px;
+  color: white;
+
+}
+
+aside h1{
+  text-align: center;
+}
+
+.aw {
+  margin-bottom: 15px;
+}
+
+.exp {
+  font-size: 145%;
+  text-align: center;
+}
+
+.fotofooter {
+  width: 50px;
+  height: 50px;
+}
+
+.colocacionfooter {
+  display: inline;
+  padding-left: 25%;
+  
+}
+
+table {
+    margin-left: 10%;
+    text-align: center;
+    width: 700px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 80px;
+    text-align: center;
+   padding-left: 10%;
+}
+
