@@ -150,3 +150,16 @@ aside h1{
   display: inline;
   padding-left: 25%;
 }
+
+
+
+input {
+  padding-bottom: 50px;
+  display: block;
+}
+
+label {
+  padding-bottom: 25px;
+  display: block;
+  
+}
