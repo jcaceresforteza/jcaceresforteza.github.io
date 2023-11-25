@@ -69,15 +69,16 @@ li a:visited {
     padding: 10px;
     margin-top: 30px;
     text-align: center;
-    width: 33%;
+    width: 55%;
     color: white;
     font-size: 25px;
-    margin-left: 19%;
+    margin-left: 5%;
   
   
 }
 
 .cualidades {
+  columns: 200px 3;
   border-radius: 10px;
   font-size: 0.8em;
   float: left;
@@ -88,7 +89,6 @@ li a:visited {
   color: white;
   font-size: 25px;
   padding-left: 0%;
-
 }
 
 
@@ -101,15 +101,16 @@ li a:visited {
   text-align: justify;
   color: white;
   font-weight: bold;
-  padding-left: 7%;
-  margin-left: 6%;
+  margin-left: 5%;
   font-size: 20px;
+  width: 15%;
 
 }
 
 .img {
   width: 250px;
   height: 250px;
+  padding-left: 15%;
 }
 
 .img:hover {
@@ -126,18 +127,30 @@ footer {
   left:0%;
   clear: both;
   padding: 20px;
-  text-align: center;
+  
   color: white;
 
 }
 
-//*.articles {
-  
-  float: left;
-  margin-left: 5%;
-  margin-top: 30px;
-  width: 500px;
-  border: 1px;
-  border-style: solid;
-  font-size: 50px;
+aside h1{
+  text-align: center;
+}
+
+.aw {
+  margin-bottom: 15px;
+}
+
+.hobbies {
+  font-size: 145%;
+  text-align: center;
+}
+
+.fotofooter {
+  width: 50px;
+  height: 50px;
+}
+
+.colocacionfooter {
+  display: inline;
+  padding-left: 25%;
 }
