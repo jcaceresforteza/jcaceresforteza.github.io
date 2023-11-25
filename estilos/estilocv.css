@@ -162,3 +162,8 @@ th, td {
     width: 30px;
     height: 30px;
 }
+
+
+.puntos {
+  list-style-type: square;
+}
