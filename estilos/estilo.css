@@ -19,6 +19,9 @@ body {
     position: sticky;
     z-index: 1;
     border-radius: 4px;
+    top:0%;
+    left:0%;
+    display: block;
   }
 
   header a{
@@ -26,4 +29,92 @@ body {
     font-weight: bold;
     padding-left: 7%;
     margin-left: 6%;
+    font-size: 27px;
   }
+
+  header a:hover{
+    font-size: 40px;
+    color: black;
+  }
+
+  .barraizquierda {
+    background-image: url("/img/fondo.jpg");
+    float: left;
+    height: 500px;
+    margin-top: 100px;
+    width: 15%;
+    color: white;
+  }
+
+.barraizquierda:visited {
+  color: white;
+}
+
+li a {
+  color: white;
+  font-weight: bold;
+  font-size:25px;
+}
+li a:visited {
+  color: white;
+  font-weight: bold;
+  font-size:25px;
+}
+
+.cualidades {
+  float: left;
+  margin-left: 19%;
+  width: 10%;
+  color: white;
+}
+
+.cualidades article {
+
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+}
+
+.img:hover {
+  width: 300px;
+  height: 300px;
+}
+
+.barraderecha {
+  float: left;
+  margin-top: 4%;
+  text-align: justify;
+  color: white;
+  font-weight: bold;
+  padding-left: 7%;
+  margin-left: 6%;
+  font-size: 20px;
+
+}
+
+footer {
+  background-image: url("/img/fondo.jpg");
+  position: sticky;
+  z-index: 1;
+  border-radius: 4px;
+  bottom:0%;
+  left:0%;
+  clear: both;
+  padding: 20px;
+  text-align: center;
+  color: white;
+
+}
+
+.articles {
+  column-count: 3;
+  float: left;
+  margin-left: 5%;
+  margin-top: 30px;
+  width: 500px;
+  border: 1px;
+  border-style: solid;
+  font-size: 50px;
+}
