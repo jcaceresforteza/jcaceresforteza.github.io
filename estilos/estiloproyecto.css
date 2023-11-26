@@ -63,46 +63,40 @@ li a:visited {
 
 .cualidades1 {
     border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 50px;
     font-size: 0.8em;
     float: left;
-    padding: 10px;
+    padding: 70px;
     margin-top: 30px;
     text-align: center;
     width: 55%;
     color: white;
-    font-size: 25px;
+    font-size: 45px;
     margin-left: 5%;
-  
-  
+    
 }
 
-.cualidades {
-  columns: 200px 3;
-  border-radius: 10px;
-  font-size: 0.8em;
-  float: left;
-  padding: 10px;
-  margin-top: 30px;
-  text-align: center;
-  width: 33%;
-  color: white;
-  font-size: 25px;
-  padding-left: 0%;
+.cualidades1 > p {
+    margin-top: 1px;
 }
 
+.cualidades1 > a {
+    margin-top: 75px;
+}
 
-
+.cualidades1 > video {
+    margin-top: 75px;
+}
 
 
 .barraderecha {
   float: left;
   margin-top: 4%;
-  text-align: justify;
+  text-align: center;
   color: white;
   font-weight: bold;
   margin-left: 5%;
-  font-size: 20px;
+  font-size: 21px;
   width: 15%;
 
 }
@@ -137,7 +131,9 @@ aside h1{
 }
 
 .aw {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  list-style-type: "👩🏻‍💻 ";
 }
 
 .hobbies {
@@ -153,4 +149,22 @@ aside h1{
 .colocacionfooter {
   display: inline;
   padding-left: 25%;
+}
+
+
+.enlacedocu {
+    color: white;
+}
+
+.enlacedocu:visited {
+    color: white;
+}
+
+.yo {
+    width: 700px;
+    height: 450px;
+}
+
+.tonterias {
+    margin-bottom: 50px;
 }
