@@ -18,14 +18,14 @@
             </nav>
         </header>
         <aside class="barraizquierda">
-            <h1>prueba</h1>
+            <h1>Gracias por contactar con nosotros</h1>
             
             <ul>
                 
-                <li class="aw">prueba</li>
-                <li class="aw">prueba</li>
-                <li class="aw">prueba</li>
-                <li class="aw">prueba</li>
+                <li class="aw">Recuerda completar todos los campos obligatorios</li>
+                <li class="aw">Lee con detenimiento los términos y condiciones</li>
+                <li class="aw">Posiblemente se realice compraventa con tus datos</li>
+                <li class="aw">El envio del formulario no está finalizado es puro show</li>
                 
             </ul>
         </aside>
@@ -34,15 +34,15 @@
             <form action="get">
                 <fieldset class="fieldset1">
                     <h1>Datos de contacto</h1>
-                        <label class="pregunta" for="nombre">Nombre:</label>
-                        <input type="text" class="respuesta" id="nombre" name="nombre2" required placeholder="Tu nombre aquí" autofocus>
+                        <label for="nombre">Nombre:*</label>
+                        <input type="text" id="nombre" name="nombre2" required placeholder="Tu nombre aquí" autofocus>
         
-                        <label class="pregunta" for="Edad">Edad:</label>
-                        <input type="number" class="respuesta" id="Edad" name="edad2" required placeholder="0">
+                        <label for="Edad">Edad:*</label>
+                        <input type="number" id="Edad" name="edad2" required placeholder="0">
         
-                        <label class="pregunta" for="pronombres">Pronombres:</label>
+                        <label for="pronombres">Pronombres:</label>
         
-                        <select class="respuesta" name="pronombres2" id="pronombres">
+                        <select name="pronombres2" id="pronombres">
                             <option value="el">Él</option>
                             <option value="ella">Ella</option>
                             <option value="Otro">Otro</option>
@@ -51,16 +51,18 @@
                         <label for="telefono1">Telefono de contacto:</label>
                         <input type="tel" name="telefono" id="telefono1">
         
-                        <label for="correo1">E-mail:</label>
-                        <input type="email" name="correo" id="correo1">
+                        <label for="correo1">E-mail:*</label>
+                        <input type="email" name="correo" id="correo1" required placeholder="@gmail.com">
                 </fieldset>
                 <fieldset class="fieldset1">
                     <h1>Información adicional</h1>
-                        <p class="pregunta">Ocasión de la visita:</p>
-                            <label for="visitaa1">Observar mi talento</label> <input type="radio" name="visita" id="visitaa1" value="talento"><br>
-                            <label for="visitaa2">Cotillear</label> <input type="radio" name="visita" id="visitaa2" value="cotilleo"><br>
-                            <label for="visitaa3">Calificarme</label> <input type="radio" name="visita" id="visitaa3" value="Calificarme">
-        
+                        <p>Ocasión de la visita:</p>
+
+                             <label for="visitaa1" class="radio">Observar mi talento</label> <input type="radio" name="visita" id="visitaa1" value="talento">
+                             <label for="visitaa2" class="radio">Cotillear</label> <input type="radio" name="visita" id="visitaa2" value="cotilleo">
+                             <label for="visitaa3" class="radio">Calificarme</label> <input type="radio" name="visita" id="visitaa3" value="Calificarme">
+                            
+
                             <label for="color1">Escoja su color representativo:</label>
                             <input type="color" name="color" id="color1" value="#ff0000">
         
@@ -76,28 +78,31 @@
                             <label for="otros1">Recomendaciones (Opcional):</label>
                             <textarea name="otros" id="otros1" cols="30" rows="6" placeholder="Escriba aquí sus recomendaciones"></textarea>
                     </fieldset>
-                    
+                <div class="abajo">
                     <label for="verificacion1">He leído y acepto los <a href="https://es.wikipedia.org/wiki/T%C3%A9rminos_y_condiciones_de_uso" target="_blank">términos y condiciones</a> de uso</label><input type="checkbox" name="verificacion" id="verificacion1" required>
 
                     <button type="reset">
-                        <img src="/img/descarga.png" alt="reseteo" width="32" height="32" style="vertical-align: middle">
+                        <img src="/img/descarga.png" alt="reseteo" width="17" height="17" style="vertical-align: middle">
                             Reinicio de información
                     </button>
                     
                     <button type="submit">
                         Enviar
                     </button>
+                </div>
             </form>
             </section>
         </main>
         <aside class="barraderecha">
             <div>
-                 <p class="hobbies">Prueba</p>
+                <img src="/img/banner1.jpeg" alt="banner1" class="banner">
+                <img src="/img/banner2.jpg" alt="banner2" class="banner">
+                <img src="/img/banner3.jpeg" alt="banner3" class="banner">
+                <img src="/img/banner4.jpeg" alt="banner4" class="banner">
+                <img src="/img/banner5.jpeg" alt="banner5" class="banner">
+
             </div>
            
-            <div>
-                <p class="hobbies">Prueba.</p>
-            </div>
         </aside>
         
         <footer>

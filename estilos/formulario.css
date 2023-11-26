@@ -64,9 +64,8 @@ li a:visited {
 .cualidades1 {
     border: 1px solid white;
     border-radius: 10px;
-    font-size: 0.8em;
     float: left;
-    padding: 10px;
+    padding: 3%;
     margin-top: 30px;
     text-align: center;
     width: 55%;
@@ -77,19 +76,6 @@ li a:visited {
   
 }
 
-.cualidades {
-  columns: 200px 3;
-  border-radius: 10px;
-  font-size: 0.8em;
-  float: left;
-  padding: 10px;
-  margin-top: 30px;
-  text-align: center;
-  width: 33%;
-  color: white;
-  font-size: 25px;
-  padding-left: 0%;
-}
 
 .barraderecha {
   float: left;
@@ -119,11 +105,11 @@ footer {
   position: sticky;
   z-index: 1;
   border-radius: 4px;
-  bottom:0%;
+  bottom:0;
   left:0%;
   clear: both;
   padding: 20px;
-  
+  display: block;
   color: white;
 
 }
@@ -133,13 +119,10 @@ aside h1{
 }
 
 .aw {
-  margin-bottom: 15px;
+  margin-bottom: 50px;
+  list-style-type: "🐒 ";
 }
 
-.hobbies {
-  font-size: 145%;
-  text-align: center;
-}
 
 .fotofooter {
   width: 50px;
@@ -152,14 +135,48 @@ aside h1{
 }
 
 
-
-input {
-  padding-bottom: 50px;
-  display: block;
-}
-
-label {
-  padding-bottom: 25px;
+fieldset label {
+  padding-bottom: 40px;
   display: block;
   
+}
+
+fieldset input {
+  margin-bottom: 7%;
+
+}
+
+form {
+  position: relative;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+button {
+  padding-bottom: 5%;
+  display: inline-block;
+  width: 300px;
+  height: 1px;
+}
+
+select {
+  margin-bottom: 7%;
+}
+
+.radio{
+  display: inline-block;
+}
+
+.abajo {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.banner {
+  width: 350px;
+  height: 350px;
+  display: block;
+  margin-bottom: 50px;
 }
