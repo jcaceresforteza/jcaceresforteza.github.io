@@ -36,7 +36,10 @@
                     <h1>Datos de contacto</h1>
                         <label for="nombre">Nombre:*</label>
                         <input type="text" id="nombre" name="nombre2" required placeholder="Tu nombre aquí" autofocus>
-        
+
+                        <label for="contra1">Contraseña:*</label>
+                        <input type="password" name="contra" id="contra1" minlength="4" maxlength="10" required>
+
                         <label for="Edad">Edad:*</label>
                         <input type="number" id="Edad" name="edad2" required placeholder="0">
         
@@ -53,6 +56,10 @@
         
                         <label for="correo1">E-mail:*</label>
                         <input type="email" name="correo" id="correo1" required placeholder="@gmail.com">
+
+                        <label for="tuweb1">Web de contacto:</label>
+                        <input type="url" name="tuweb" id="tuweb1" placeholder="www.tuweb.com">
+
                 </fieldset>
                 <fieldset class="fieldset1">
                     <h1>Información adicional</h1>
@@ -62,7 +69,6 @@
                              <label for="visitaa2" class="radio">Cotillear</label> <input type="radio" name="visita" id="visitaa2" value="cotilleo">
                              <label for="visitaa3" class="radio">Calificarme</label> <input type="radio" name="visita" id="visitaa3" value="Calificarme">
                             
-
                             <label for="color1">Escoja su color representativo:</label>
                             <input type="color" name="color" id="color1" value="#ff0000">
         
@@ -75,8 +81,14 @@
                             <label for="importancia1">Importancia del contacto:</label>
                             <input type="range" name="importancia" id="importancia1" min="1" max="10" step="1">
         
+
+                            <label for="week1">Seleccione la semana que le gustaría realizar una colaboración:</label>
+                            <input type="week" name="week" id="week1">
+
+
                             <label for="otros1">Recomendaciones (Opcional):</label>
                             <textarea name="otros" id="otros1" cols="30" rows="6" placeholder="Escriba aquí sus recomendaciones"></textarea>
+
                     </fieldset>
                 <div class="abajo">
                     <label for="verificacion1">He leído y acepto los <a href="https://es.wikipedia.org/wiki/T%C3%A9rminos_y_condiciones_de_uso" target="_blank">términos y condiciones</a> de uso</label><input type="checkbox" name="verificacion" id="verificacion1" required>
