@@ -173,7 +173,7 @@ aside h1{
   text-align: center;
   text-decoration: underline;
   text-transform:uppercase;
-  text-shadow: 10cap;
+  text-orientation: upright;
   font-weight: bold;
   font-style: italic;
   font-size: larger;
